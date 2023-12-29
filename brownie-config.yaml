@@ -1,0 +1,13 @@
+dependencies:
+  - OpenZeppelin/openzeppelin-contracts@5.0.0
+networks:
+  default: development
+  development:
+    host: https://sepolia.infura.io/v3/$WEB3_INFURA_PROJECT_ID
+    id: sepolia
+    name: Sepolia (Infura)
+    chainid: 11155111
+    provider: infura
+wallets:
+  from_key: ${PRIVATE_KEY}
+  
